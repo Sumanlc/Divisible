@@ -11,5 +11,15 @@ class Divisible3Test {
 
         assertTrue(resultado);
     }
+    @Test
+    public void test2() {
+        int entrada = 6;
+
+        boolean resultado = Divisible3.esDivisiblePorTres(entrada);
+
+        assertTrue(resultado);
+    }
+
+
 
 }
